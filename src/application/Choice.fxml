@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <AnchorPane layoutY="-6.0" prefHeight="517.0" prefWidth="1015.0">
+         <children>
+            <ImageView fitHeight="573.0" fitWidth="1065.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/C:/Users/Nisha/Desktop/Images/sign.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="83.0" layoutY="40.0" style="-fx-background-color: #ededed;" text="Choose a Specification" textFill="#300202">
+               <font>
+                  <Font name="System Bold Italic" size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="152.0" layoutY="193.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="338.0" style="-fx-background-color: #fbcb7b;" text="APP DEVELOPMENT">
+               <font>
+                  <Font name="Georgia Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="535.0" layoutY="193.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="331.0" style="-fx-background-color: #fbcb7b;" text="WEB DEVELOPMENT">
+               <font>
+                  <Font name="Georgia Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="152.0" layoutY="307.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="338.0" style="-fx-background-color: #fbcb7b;" text="SOFTWARE DEVELOPMENT">
+               <font>
+                  <Font name="Georgia Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="535.0" layoutY="307.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="331.0" style="-fx-background-color: #fbcb7b;" text="MACHINE LEARNING">
+               <font>
+                  <Font name="Georgia Bold" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
